@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  PG_DB: "node_db"
+  PG_USER: "inixbdg"
+  PG_PASSWORD: "12345"
+  PG_HOST: "db-service"
+  PG_PORT: "5432"
